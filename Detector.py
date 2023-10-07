@@ -9,7 +9,7 @@ st.set_page_config(
 
 # Judul dan deskripsi aplikasi
 st.title("DEKETA Detector")
-st.write("Aplikasi ini akan mencoba mendeteksi tanda tangan dalam gambar yang Anda unggah.")
+st.write("Aplikasi ini akan mencoba mendeteksi tanda tangan dalam dokumen yang Anda unggah.")
 
 # User input file dokumen
 uploaded_file = st.file_uploader("Pilih gambar dokumen", type=["jpg", "png", "jpeg"], accept_multiple_files=False)
