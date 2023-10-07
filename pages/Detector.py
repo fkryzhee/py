@@ -34,7 +34,7 @@ if uploaded_file is not None:
         contours, _ = cv2.findContours(edged, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
         if len(contours) > 0:
-            st.success("Tanda tangan terdeteksi. Ini bisa jadi tanda tangan asli atau palsu.")
+            st.success("Tanda tangan terdeteksi palsu.")
         else:
             st.warning("Tanda tangan tidak terdeteksi. Mungkin tidak ada tanda tangan dalam gambar ini.")
 
