@@ -7,8 +7,6 @@ st.set_page_config(
     page_icon="👋",
 )
 
-
-
 # Judul dan deskripsi aplikasi
 st.title("DEKETA Detector")
 st.write("Aplikasi ini akan mencoba mendeteksi tanda tangan dalam gambar yang Anda unggah.")
